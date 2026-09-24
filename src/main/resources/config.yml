@@ -1,0 +1,17 @@
+worlds:
+  world:
+    percentage: 50
+    minimum-players: 2
+    minimum-votes: 1
+    quorum-seconds: 5
+    virtual-votes: true
+    clear-weather: true
+    show-bossbar: true
+    night-start: 12542
+    night-end: 23459
+    morning-time: 0
+messages:
+  progress: 'Сон: {votes}/{required} · игроков: {eligible}'
+  skipped: 'Голосование завершено: наступило утро.'
+  disabled: 'Голосование в этом мире недоступно.'
+  day: 'Голосование доступно только ночью.'
