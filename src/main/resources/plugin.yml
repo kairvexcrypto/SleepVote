@@ -1,0 +1,19 @@
+name: SleepVote
+version: '${project.version}'
+main: ru.warndev.sleepvote.SleepVotePlugin
+api-version: '1.21.11'
+author: Warndev
+commands:
+  sleepvote:
+    aliases: [svote]
+    description: Vote to skip the night
+    usage: /svote help
+permissions:
+  sleepvote.vote:
+    default: true
+  sleepvote.status:
+    default: true
+  sleepvote.admin:
+    default: op
+  sleepvote.exclude:
+    default: false
